@@ -1,14 +1,44 @@
-
-# Calendar APP
-
+## Frontend MERN - Calendar App
 
 
-## Development pasos
+This project is a MERN stack application for managing calendar events. The frontend is built with React , React Router DOM , Redux , provide a dynamic and responsive user interface.
 
-1. Renombrar el archivo .env.template por .env
-2. Hacer los cambios respectivos en las variables de entorno.
+## Features
+User Authentication: Login/Signup functionality with JWT authentication.
+Event Management: Create, update, and delete calendar events.
+Calendar Display: Interactive calendar view to visualize events.
+CRUD Operations: Full functionality to manage event data stored in MongoDB.
 
-```
-VITE_API_URL=http://localhost:4000/api
+## Technologies Used
+ Frontend: React,
 
-```
+ Styles: CSS,
+  
+ Other:  Axios , Redux , SweetAlert2.
+
+ 
+
+# Setup & Installation
+Clone the repository:
+
+
+git clone https://github.com/obed-dev/react-mern-calendar
+
+## Install dependencies:
+
+npm install
+Set up environment variables:
+
+Clone the .env.template file and rename it to .env.
+Add your MongoDB URI, JWT secret, and other required keys.
+
+
+## Run the frontend:
+npm run dev
+Access the app at http://localhost:3000 (default port).
+
+Contributing
+Feel free to fork this repository and submit pull requests for new features or bug fixes.
+
+License
+This project is licensed under the MIT License.
